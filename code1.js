@@ -7,6 +7,6 @@ function calculator(a,b){
     let mod = a % b;
     return {sum, sub, mul, div, power, mod};
 }
-let num1 = 10;
-let num2 = 5;
+let num1 = parseInt(prompt("Enter the first number:"));;
+let num2 = parseInt(prompt("Enter the second number:"));;
 console.log(calculator(num1,num2));
